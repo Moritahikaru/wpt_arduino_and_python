@@ -11,6 +11,7 @@ incread_frequency:加算させたい周波数(Hz)
 first_frequency:初めの周波数(kHz).但し4kHz以上．
 last_frequency:一番最後の周波数(kHz).
 Measurement_Time:1つの周波数につき，計測する時間.
+
 incread_frequencyの値が0の場合first_frequencyの値をずっと出力し続ける．(last_frequency,Measurement_Timeの値は適当でいい．)
 
 arduino:

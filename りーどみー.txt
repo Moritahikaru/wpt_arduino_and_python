@@ -13,6 +13,15 @@ Measurement_Time:1つの周波数につき，計測する時間.
 
 incread_frequencyの値が0の場合first_frequencyの値をずっと出力し続ける．(last_frequency,Measurement_Timeの値は適当でいい．)
 
+ファイル:wpt_2020sotukenn6.py(更新：2020/1/29)
+変更点:
+・時間を0.1秒ずつでも周波数スイープできるように，秒数の1目盛りをds(デシ秒0.1秒)にした．
+・データの保存方法を変えれるようにした．
+all:測定履歴
+sweep:fre-send-receive:一つの周波数につき最頻値で一つに絞ったデータをここの周波数の電力としたもの．
+sweep:fre-send:sweep:fre-send-receiveと同じ．但し出力されるデータは周波数と送電側のデータだけ．
+sweep:fre-receive:fre-send-receiveと同じ．但し出力されるデータは周波数と受電側のデータだけ．
+
 arduino:
 送電側：
 ファイル：WPT_sotu2
